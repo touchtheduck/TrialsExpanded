@@ -1,0 +1,8 @@
+{
+  "item.trialsexpanded.smithing_template.vault_upgrade.additions_slot_description": "Add Ominous Trial Key",
+  "item.trialsexpanded.smithing_template.vault_upgrade.applies_to": "Vault",
+  "item.trialsexpanded.smithing_template.vault_upgrade.base_slot_description": "Add Vault",
+  "item.trialsexpanded.smithing_template.vault_upgrade.ingredients": "Ominous Trial Key",
+  "item.trialsexpanded.vault_upgrade_smithing_template": "Smithing Template",
+  "upgrade.trialsexpanded.vault_upgrade": "Vault Upgrade"
+}

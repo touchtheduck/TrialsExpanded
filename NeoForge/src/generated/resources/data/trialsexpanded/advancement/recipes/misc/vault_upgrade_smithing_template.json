@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "trialsexpanded:vault_upgrade_smithing_template"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vault_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "trialsexpanded:vault_upgrade_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vault_upgrade_smithing_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "trialsexpanded:vault_upgrade_smithing_template"
+    ]
+  }
+}

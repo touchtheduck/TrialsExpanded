@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/TOUCHTHEDUCK/TrialsExpanded/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+displayURL="https://github.com/TOUCHTHEDUCK/TrialsExpanded"
+logoFile= "logo.png"
+logoBlur=false
+credits="${mod_credits}"
+authors="${mod_authors}"
+description='''${mod_description}'''
+# Mod Compatibility
+itemIcon = "trialsexpanded:vault_upgrade_smithing_template"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

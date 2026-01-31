@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "minecraft:wind_charge"
+    },
+    "E": {
+      "item": "minecraft:ender_chest"
+    },
+    "K": {
+      "item": "minecraft:trial_key"
+    },
+    "S": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    "KCK",
+    "SES",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:vault"
+  }
+}

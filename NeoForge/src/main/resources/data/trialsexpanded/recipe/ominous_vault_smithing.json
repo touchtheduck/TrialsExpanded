@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:breeze_rod"
+  },
+  "base": {
+    "item": "minecraft:vault"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:vault",
+    "components": {
+      "minecraft:block_entity_data": {
+        "id": "minecraft:vault",
+        "config": {
+          "key_item": {
+            "id": "minecraft:ominous_trial_key",
+            "count": 1
+          },
+          "loot_table": "minecraft:chests/trial_chambers/reward_ominous"
+        }
+      },
+      "minecraft:block_state": {
+        "ominous": "true"
+      }
+    }
+  },
+  "template": {
+    "item": "trialsexpanded:vault_upgrade_smithing_template"
+  }
+}

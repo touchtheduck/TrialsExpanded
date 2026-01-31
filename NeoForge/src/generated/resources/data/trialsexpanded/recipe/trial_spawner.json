@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "L": {
+      "item": "minecraft:soul_lantern"
+    },
+    "S": {
+      "item": "minecraft:echo_shard"
+    },
+    "W": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "pattern": [
+    "LBL",
+    "SWS",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:trial_spawner"
+  }
+}
